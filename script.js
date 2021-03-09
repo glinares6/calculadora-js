@@ -1,4 +1,4 @@
-let resultado
+/* let resultado
 let primerNumero
 let segundoNumero
 // creamos un array devalores
@@ -42,3 +42,4 @@ else{
     alert("se a escrito texto o paso el rango de numeros(1-4) \nDebe escribir los numeros mostrador en pantalla");
 }
 
+ */
