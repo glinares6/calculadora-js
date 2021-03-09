@@ -42,13 +42,3 @@ else{
     alert("se a escrito texto o paso el rango de numeros(1-4) \nDebe escribir los numeros mostrador en pantalla");
 }
 
-
-// conprobacion de los número asignados
-// if(primerNumero != null){
-//     console.log(parseInt(primerNumero))
-    
-// }else if(segundoNumero != null){
-//     console.log(parseInt(segundoNumero));
-// }
-
-// let resultado = prompt("El resultado es:",parseInt(primerNumero))
