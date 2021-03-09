@@ -1,0 +1,1 @@
+alert('operador de una tabla + + * /')
