@@ -4,17 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
     <title>Document</title>
 </head>
 <body>
     <!-- <p>tabla de operadores</p> -->
 
-    <div>
+    <div class="contenedor">
+      <div class="numeros">
         <label for="primerNumero">ingresar primer número</label>
         <input id="primerNum" type="number" name="primerNumero">
+      </div>
+      <div class="operador">
+        <label for="operador">operador</label>
+        <input id="operador" type="text" name="operador">
+       </div>
+       <div class="numeros">
         <label for="segundoNombre">ingresar segundo número</label>
         <input id="segundoNum" type="number" name="segundoNombre">
+       </div>
         <button id="enviar">clacular</button>
+        <div id="resultado">
+
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
