@@ -1,3 +1,4 @@
+// CALCULADORA JS
 /* let resultado
 let primerNumero
 let segundoNumero
@@ -44,3 +45,36 @@ else{
 
  */
 
+// CALCULADORA HTML +JS
+
+const btnEnviar = document.getElementById('enviar')
+
+if(btnEnviar){
+    btnEnviar.addEventListener('click',() =>{
+        // verificamos que los datos sean retornados con el log 
+        // console.log(primerNum.value)
+        // console.log(segundoNum.value)
+
+    // asignamos el Id del DOM en el js 
+        const resultado = document.getElementById('resultado')
+    // imprimimos en el documento el valor del  imputs
+    const operador =document.getElementById('operador')
+    // console.log(operador.value);
+ 
+        if(operador.value == "+"){
+                resultado.innerHTML =parseInt(primerNum.value) + parseInt(segundoNum.value)
+            }else if(operador.value == "-"){
+                resultado.innerHTML =parseInt(primerNum.value) - parseInt(segundoNum.value)
+            }else if(operador.value == "*"){
+                resultado.innerHTML =parseInt(primerNum.value) * parseInt(segundoNum.value)
+            }else if(operador.value == "/"){
+                resultado.innerHTML= parseInt(primerNum.value) / parseInt(segundoNum.value)
+            }else{
+                resultado.innerText="el operador no es valido debe poner +,-,*,/"
+            }
+
+        primerNum.value=""
+        segundoNum.value=""
+        operador.value=""
+    })
+}
