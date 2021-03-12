@@ -1,0 +1,33 @@
+
+aprende un lenguaje en particular 
+local stotange ,  formularios 
+POO  patron de diseño
+framework 
+programa mucho -
+imagina y crea  -> aplicaciíón web que quieras desarrollar
+
+divide la app en partes más pequeñas  -> Desarrolla  un foro del login 
+
+
+
+ envuar los datos por formularios y que guarde los daros para luego mostrarlos por pantalla 
+
+
+haz una claculadora que le meta un numero en una ventanita y que te muestre la suma resta multiplicacion y division
+
+que el usuario meta su edad y que el programa  te diga si es mayor o mejor de edad 
+
+que el usuario meta un numero y el programa imprima por pantalla los numero pares quel 1 al 50 a +
+
+
+mete el nombre de un usuraui y les das el boton de guardar y que te musteste los que son mayor de edad  
+
+https://lenguajecss.com/css/
+
+
+ejerciios de js -> crear una calculadora en js 
+
+logica de programacion -> https://www.youtube.com/watch?v=7jkSsAWlJtU&list=PLs1sXiNvW4Oz_M029tfkT2GGUYFqWggJ9&index=3
+
+
+
